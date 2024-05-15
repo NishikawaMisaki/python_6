@@ -13,5 +13,5 @@ if math_v >= 50 and jap_v >= 50 and eng_v >= 50:
     else:
         print("不合格",end="")
 else:
-    print("不合格",end="")
+    print("不合格",end="")    
 
