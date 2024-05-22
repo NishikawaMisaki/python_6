@@ -21,7 +21,6 @@ day = day[6:]
 today = datetime.date(int(year),int(month),int(day))
 today = int(today.strftime("%w"))
 
-
 if today == 0 or today == 6:
     sum = sat_sun_adult * adult + sat_sun_child * child
 else:
